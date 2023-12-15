@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website - Home</title>
+</head>
+<body class="light-mode">
+
+    <nav class="nav-container">
+        <img class="logo" src="Logo.png" alt="Logo">
+        <div class="nav-links">
+            <a href="#" onclick="showSection('home-section')">Home</a>
+            <a href="#" onclick="showSection('course-section')">Course</a>
+            <a href="#" onclick="showSection('about-section')">About</a>
+            <a href="#" onclick="showSection('blog-section')">Blog</a>
+            <a href="#" onclick="showSection('contact-section')">Contact</a>
+            <a href="#" onclick="showSection('login-section')">Login</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-btn">Search</button>
+        </div>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+    </nav>
+
+    <!-- Home Content -->
+    <div class="content-container" id="home-section">
+        <div class="slider" id="slider">
+            <div class="slider-content">
+                <h2>Welcome to Our Website</h2>
+                <p>This is the slider section of your website. Customize this area with your content.</p>
+                
+            </div>
+        </div>
+
+        <div class="blurred-container">
+            <h2>Blurred Container</h2>
+            <p>This is a blurred container section of your website. Customize this area with your content.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

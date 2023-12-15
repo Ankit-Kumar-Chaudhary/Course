@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website - Contact</title>
+</head>
+<body class="light-mode">
+
+    <nav class="nav-container">
+        <img class="logo" src="your-logo.png" alt="Logo">
+        <div class="nav-links">
+            <a href="#" onclick="showSection('home-section')">Home</a>
+            <a href="#" onclick="showSection('course-section')">Course</a>
+            <a href="#" onclick="showSection('about-section')">About</a>
+            <a href="#" onclick="showSection('blog-section')">Blog</a>
+            <a href="#" onclick="showSection('contact-section')">Contact</a>
+            <a href="#" onclick="showSection('login-section')">Login</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-btn">Search</button>
+        </div>
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">Dark Mode</button>
+    </nav>
+
+    <!-- Contact Content -->
+    <div class="content-container" id="contact-section">
+        <div class="blurred-container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us. Use the contact form or the information below:</p>
+            <!-- Add your contact form or details here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
